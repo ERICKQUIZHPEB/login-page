@@ -8,9 +8,9 @@ const LoginPage: React.FC = () => {
 
   const handleLogin = async () => {
     try {
-      const apiUrl = 'URL_DE_LA_API_AQUI'; // Reemplaza con la URL de la API
-      const endpoint = 'ENDPOINT_DE_LA_API_AQUI'; // Reemplaza con el endpoint de la API
-      const method = 'POST'; // Reemplaza con el método HTTP adecuado
+      const apiUrl = 'URL_DE_LA_API_AQUI'; // URL de la API
+      const endpoint = 'ENDPOINT_DE_LA_API_AQUI'; // El endpoint de la API
+      const method = 'POST'; // El método HTTP adecuado
 
       const requestBody = {
         username,
